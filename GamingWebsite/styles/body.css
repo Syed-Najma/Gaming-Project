@@ -1,0 +1,109 @@
+.image {
+    
+    width:100%;
+    margin-top:90px;
+    
+}
+.body{
+    font-family: r;
+    display: flex;
+    flex-direction:column;
+    font-family: roboto;
+}
+.pannel-1{
+    display: flex;
+    flex-direction: row;
+}
+.image1{
+    position: relative;
+}
+.text-1{
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top:420px;
+    right:20px;
+}
+.signuptxt{
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 400px;
+    color: rgb(112, 111, 111);
+    text-align: center;
+}
+.come-back{
+    max-width: 400px;
+    margin-top: 30px;
+    color: rgb(146, 144, 144);
+    text-align: center;
+}
+.pannel-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:arial;
+    line-height: 30px;
+}
+.p2txt-1{
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:70px ;
+}
+.p2txt-2{
+    color:  rgb(134, 133, 133);
+    text-align: center;
+    max-width: 970px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-left: 100px;    
+}
+.p2txt-3{
+    margin-top: 30px;
+    text-align: center;
+    max-width: 970px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-left: 100px;   
+    color:  rgb(134, 133, 133);
+}
+.pannel-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    color:  rgb(134, 133, 133);
+}
+.p3txt-1{
+   width: 380px;
+   height: 100px;
+   text-align: center;
+   padding: 40px 40px;
+   /* background-color: lightcoral; */
+}
+.p3txt-1:hover{
+   background-color: rgb(216, 214, 214);
+}
+.mission{
+   font-weight: bold;
+   font-size: 25px;
+   margin-bottom: 20px;
+   
+}
+.p3txt-2{
+    width: 380px;
+    height: 100px;
+    text-align: center;
+    padding: 40px 40px; 
+    /* background-color:lightblue; */
+}
+.p3txt-2:hover{
+    background-color: rgb(216, 214, 214);
+}
+.vision{
+   font-weight: bold;
+   font-size: 25px;
+   margin-bottom: 20px;
+   margin-left: 0px;
+   
+}
