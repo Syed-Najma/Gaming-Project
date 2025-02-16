@@ -1,7 +1,6 @@
 .image {
     
     width:100%;
-    margin-top:90px;
     
 }
 .body{
@@ -81,6 +80,7 @@
    height: 100px;
    text-align: center;
    padding: 40px 40px;
+   z-index: -10;
    /* background-color: lightcoral; */
 }
 .p3txt-1:hover{
@@ -97,10 +97,12 @@
     height: 100px;
     text-align: center;
     padding: 40px 40px; 
+    z-index: -10;
     /* background-color:lightblue; */
 }
 .p3txt-2:hover{
     background-color: rgb(216, 214, 214);
+    z-index: -10;
 }
 .vision{
    font-weight: bold;
@@ -294,7 +296,7 @@
     font-weight: 400;
 }
 .p6-txt4:hover{
-    background-color: grey;
+    /* background-color: grey; */
 }
 .p6-txt5{
     font-family: kanit;
