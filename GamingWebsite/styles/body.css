@@ -73,6 +73,8 @@
     justify-content: space-around;
     margin-top: 70px;
     color:  rgb(134, 133, 133);
+    z-index: 1000;
+   
 }
 .p3txt-1{
    width: 380px;
@@ -107,3 +109,268 @@
    margin-left: 0px;
    
 }
+.pannel-4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 233, 233);
+    padding-top: 80px;
+    margin-top: -40px;
+}
+.section-1{
+    display: flex;
+    flex-direction:row;
+    margin-top: none;
+    /*margin-bottom: 60px;
+    margin-left: 30px; */
+    align-items:center;
+    justify-content: center;
+
+}
+
+.image-p4{
+    height: 260px;
+    width: 290px;
+    margin-left: 80px;
+    border-radius: 20px;
+
+}
+.textsec-1{
+    background-color: #fff;
+    height: 260px;
+    width: 290px;
+    border-radius: 20px;
+    /* margin-left: 80px; */
+   
+}
+.lessthan{
+    font-weight:1000px;
+    color: rgb(60, 112, 216);
+    font-size: 30px;
+    margin-right: 30px;
+}
+.greaterthan{
+    font-weight:1000px;
+    color: rgb(60, 112, 216);
+    font-size: 30px;
+    margin-left: 30px;
+}
+.over{
+  font-weight: bold;
+  color: rgb(60, 112, 216);
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family:Kanit,ital;
+}
+.lorem{
+    max-width: 280px;
+    font-family:Kanit,ital;
+    font-weight: 200;
+    margin-left: 10px;
+
+}
+.row2{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-sec2{
+    background-color: rgb(100, 136, 209) ;
+    border: 2px   rgb(100, 136, 209)  solid;
+    font-weight: bold;
+    padding:10px 16px;
+    color: white;
+    margin-top: 20px;
+   
+}
+.p2txt-5{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.sectionp5-1{
+    position: relative;
+    z-index:0;
+}
+.image-5{
+    width:100%;
+    margin-top:8px;
+    
+}
+.sectionp5-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top:8px;
+    top: 0px;
+    left: 50px;
+    z-index: 2000;
+}
+.image6{
+    height: 600px;
+    width: 450px;
+    margin-top: 70px;
+    
+}
+.image6-div{
+    position: relative;
+}
+.img-txtp5{
+    position:absolute;
+    margin-top: 80px;
+    top: 0;
+    left: 0;
+    color: white;
+    font-family: kanit;
+    font-weight: 420;
+    font-size: 30px;
+    max-width: 180px;
+    margin-left: 7px;
+    
+}
+.pannel-5{
+    position: relative;
+
+}
+.txtp5-2{
+    position:absolute;
+    right: 50px;
+    bottom: 100px;;
+    margin-top: 7px;
+    color: white;
+    max-width: 150px;
+    font-family:kanit,sans-serif;
+    font-weight:500;
+    line-height:30px;
+    font-size:16px;
+}
+.pannel-6{
+    display: flex;
+    flex-direction: row;
+}
+.imgp6{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px; 
+    margin-top: 100px;
+}
+.p6-sec1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.p6-txt1{
+    font-family: roboto,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.p6-txt2{
+    font-family: kanit,sans-serif;
+    font-weight: 500;
+    margin-bottom: 16px;
+    
+}
+.p6-txt3{
+    max-width: 500px;
+    margin-bottom: 120px;
+}
+.p6-sec2{
+    display: flex;
+    flex-direction: column;
+}
+.p6-sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.p6-txt4{
+    font-family: kanit;
+    font-weight: 400;
+}
+.p6-txt4:hover{
+    background-color: grey;
+}
+.p6-txt5{
+    font-family: kanit;
+    font-weight: 400;
+}
+.p6-txt6{
+    font-family: kanit;
+    font-weight: 400;
+}
+.p6-sec4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight:bolder;
+    font-size: 40px;
+    color: grey;
+
+}
+.arrow-1{
+   margin-left: 34px;
+}
+.arrow-2{
+
+}
+.arrow-3{
+    margin-right: 36px;
+}
+.img-7{
+    width:100%;
+    margin-top:8px;
+}
+.pannel-8{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    align-items:center;
+}
+.img-8{
+    width:100%;
+    margin-top:-8px;    
+}
+.image8-div{
+       
+}
+.p8txt{
+    position:absolute;
+    color:white;
+     top: 40px;
+    font-weight: 700;
+    font-family: roboto;
+    font-size: 30px;
+    max-width: 500px;
+    text-align: center;
+    line-height: 35px;
+    
+   
+}
+.pannel-last{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: rgb(52, 51, 51);
+    margin-top: -8px; align-items: center;
+    align-items: center;
+    justify-content:center;
+   
+}
+.pannel-lasttxt{
+    max-width: 400px;
+    text-align: center;
+    /* margin-top: 20px; */
+    font-family: kanit;
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+
+}
+    
+    
