@@ -58,5 +58,6 @@
     margin-right: 50px;
     color:rgb(130, 129, 129);
     align-items: center;
+    flex-wrap: nowrap;
     
 }
